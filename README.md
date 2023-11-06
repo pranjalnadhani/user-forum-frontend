@@ -4,6 +4,8 @@
 
 Built using Vite, React, JavaScript, and SWC for rapid development and compilation. It features user authentication, post interactions, and content management, ensuring a dynamic and engaging user experience.
 
+Warning: This is a work in progress, not all of the features are in a complete working stage.
+
 ## Features
 
 - User Authentication (Login/Registration)
