@@ -1,0 +1,42 @@
+.container {
+  text-align: right;
+}
+
+.input-wrapper {
+  overflow: hidden;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #bdbdbd;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #212121;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+.input::placeholder {
+  color: #bdbdbd;
+}
+
+.input:disabled {
+  background-color: #eee;
+}
+
+.submit {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1976d2;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  cursor: pointer;
+}

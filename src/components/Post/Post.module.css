@@ -1,0 +1,92 @@
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  width: fit-content;
+  min-width: 320px;
+  max-width: min-content;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 12px;
+}
+
+.author {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  font-weight: bold;
+  color: #212121;
+}
+
+.metadata {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #757575;
+}
+
+.content {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  color: #212121;
+  margin-bottom: 12px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.actions:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.comment-button,
+.edit-button,
+.delete-button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  cursor: pointer;
+}
+
+.comment-button {
+  background-color: #1976d2;
+}
+
+.comment-button:hover {
+  background-color: #1565c0;
+}
+
+.edit-button {
+  background-color: #ff8c00;
+}
+
+.edit-button:hover {
+  background-color: #e65100;
+}
+
+.delete-button {
+  background-color: #d32f2f;
+}
+
+.delete-button:hover {
+  background-color: #b71c1c;
+}
+
+.comments {
+  margin-left: 20px;
+}
